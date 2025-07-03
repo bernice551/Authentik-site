@@ -1,0 +1,32 @@
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+label{
+    margin: 10px;
+    font-style: italic;
+    color: rgb(98, 170, 215);
+}
+
+::placeholder{
+    color: rgb(164, 137, 130);
+}
+
+#color{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.submit{
+    font-family: Arial;
+    padding: 10px;
+    border-radius: 10px;
+}

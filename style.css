@@ -1,0 +1,25 @@
+.navbar{
+    background-color: pink;
+}
+
+.text-one{
+    font-size: 23px;
+    font-family: Arial;
+    line-height: 33px;
+}
+.authentik{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial;
+    
+}
+
+.text-two{
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+}

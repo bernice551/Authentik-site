@@ -1,0 +1,22 @@
+*{
+    background-image: url(WhatsApp\ Image\ 2025-06-22\ at\ 07.09.42_28ed484a.jpg);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+    border: 4px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: purple
+}
+
+#checkbox{
+    display: inline-block;
+}
+
+.comment{
+    display: inline-block;
+}

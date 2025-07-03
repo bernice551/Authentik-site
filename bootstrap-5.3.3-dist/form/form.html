@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1>FORM</h1>
+    <form>
+        <label for="Lastname">Lastname</label>
+        <input type="text" name="Lastname" id="Lastname" placeholder="Enter your lastname" required>
+
+        <label for="Email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="Date">Date</label>
+        <input type="date" id="Date" required>
+
+        <label for="date-time">date-time</label>
+        <input type="datetime-local" name="date-time" id="dt"  required>
+
+        <label for="textarea">Textarea</label>
+        <textarea required></textarea>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter password" required>
+
+        <h2>GENDER</h2>
+        <div class="gender">
+            <input type="radio" name="gender" id="male" required>
+            <label for="male">Male</label><br>
+
+            <input type="radio" name="gender" id="male" required>
+            <label for="male">Female</label>
+        </div>
+
+        <label for="file">File</label>
+        <input type="file" id="file">
+
+        <label for="color">Color</label>
+        <input type="color" id="color">
+
+        <button type="submit" class="submit">SUBMIT</button>
+    </form>
+</body>
+</html>
